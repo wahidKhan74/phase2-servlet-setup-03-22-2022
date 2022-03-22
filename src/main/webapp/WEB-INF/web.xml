@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>phas2-servlet-setup-03-22-2022-</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<!-- servlet mapping -->	
+	 <servlet>
+	 	<servlet-name>WebServlet</servlet-name>
+	 	<servlet-class>com.simplilearn.web.WebServlet</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+	 	<servlet-name>WebServlet</servlet-name>
+	 	<url-pattern>/status1</url-pattern>
+	 </servlet-mapping>
+	 
+	 
+	 <!-- servlet mapping -->	
+	 <servlet>
+	 	<servlet-name>WebServlet2</servlet-name>
+	 	<servlet-class>com.simplilearn.web.WebServlet2</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+	 	<servlet-name>WebServlet2</servlet-name>
+	 	<url-pattern>/status2</url-pattern>
+	 </servlet-mapping>
+	 
+	 
+	 <!-- servlet mapping -->	
+	 <servlet>
+	 	<servlet-name>WebServlet3</servlet-name>
+	 	<servlet-class>com.simplilearn.web.WebServlet3</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+	 	<servlet-name>WebServlet3</servlet-name>
+	 	<url-pattern>/status3</url-pattern>
+	 </servlet-mapping>
+
+	<display-name>Archetype Created Web Application</display-name>
+</web-app>
